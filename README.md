@@ -40,8 +40,30 @@ try{
 - Hot-reload (state is maintained due to JIT)
 
 ## Package Management
+- `pubspec.yaml`
+	- `dev_dependences`
+	- `dependencies`
+- Dart Packages
+	- https://pub.dev/
+- Example
+```
+name: flutter_in_action
+description: First Flutter application.
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+version: 1.0.0+1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+```
 
 ## Internationalisation
 - flutter_localizations ([https://flutter.dev/docs/development/accessibility-and-localization/internationalization](https://flutter.dev/docs/development/accessibility-and-localization/internationalization))
