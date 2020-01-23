@@ -55,6 +55,7 @@ The file explorer is accessible using the button in left corner of the navigatio
 ## Crash and Error tracking
 - Firebase Crashlytics 
 	- Natively Supported https://firebase.google.com/docs/crashlytics/?gclid=CjwKCAiAgqDxBRBTEiwA59eEN11_Pdry-tK4TgIZ-A3iQUvmGse9eyPV3T278Kh9LM1v1p0K694rIBoC8YAQAvD_BwE
+	- Official Package: https://pub.dev/packages/firebase_crashlytics
 
 ## Network / IO and API Client
 - Dio package ([https://github.com/flutterchina/dio](https://github.com/flutterchina/dio))
